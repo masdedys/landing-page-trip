@@ -8,8 +8,8 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="assets/bootstrap-4.6.1/css/bootstrap.min.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
-    <title>opentrip</title>
-    <link rel="shortcut icon" href="assets/img/logo.png" />
+    <title>masdedys opentrip | Penyedia jasa layanan perjalanan liburanmu dengan harga terjangkau</title>
+    <link rel="shortcut icon" href="assets/img/logo.ico" />
     <!-- Main CSS -->
     <link rel="stylesheet" href="assets/css/style.css" />
     <!-- Font Awesome -->
@@ -19,18 +19,20 @@
 
   <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light" id="navbar">
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="navbar" style="height: 80px">
       <div class="container">
-        <a class="navbar-brand" href="index.html">OPENTRIP</a>
+        <a class="navbar-brand" href="index.html">
+          <img src="assets/img/logo.png" alt="Logo" width="60" height="60" class="d-inline-block align-text-top">
+        </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav ml-auto">
-            <a class="nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link active" href="index.html">Beranda <span class="sr-only">(current)</span></a>
             <a class="nav-link" href="#harga">Harga</a>
-            <a class="nav-link" href="#gallery">Gallery</a>
-            <a class="nav-link" href="#tentangkami">Tentang Kami</a>
+            <a class="nav-link" href="#gallery">Galeri</a>
+            <a class="nav-link" href="#tentangkami">Tentang kami</a>
             <a class="btn btn-primary tombol" href="#">Daftar</a>
           </div>
         </div>
@@ -44,7 +46,7 @@
           Make your <span>Better Experience</span><br />
           with <span>Us</span>
         </h1>
-        <a href="" class="btn btn-primary tombol py-3 px-5">Our Work</a>
+        <a href="#gallery" class="btn btn-primary tombol py-3 px-5">Our Work</a>
       </div>
     </div>
     <!-- Akhir Jumbotron -->
@@ -86,7 +88,7 @@
           <div class="col-lg-5 mt-auto mb-auto">
             <h3>destinasi wisata <span>keren</span> dari <span>kami</span></h3>
             <p>Berikut beberapa foto dari destinasi wisata yang pernah kami kunjungi</p>
-            <a href="" class="btn btn-primary tombol py-3 px-5">Gallery</a>
+            <a href="#gallery" class="btn btn-primary tombol py-3 px-5">Galeri</a>
           </div>
         </div>
         <!-- Akhir Workingspace -->
@@ -94,7 +96,7 @@
         <div class="row workingspace" id="tentangkami">
           <div class="col-lg-6 mt-auto mb-auto">
             <h3><span>Tentang Kami</span></h3>
-            <p>jalanjalanyuk.com adalah sebuah travel agent yang membantu Anda mengunjungi beberapa tempat wisata secara hemat dan pengalaman yang tidak terlupakan.</p>
+            <p>Masdedys opentrip adalah sebuah travel agent yang membantu Anda mengunjungi beberapa tempat wisata secara hemat dan pengalaman yang tidak terlupakan.</p>
             <a href="" class="btn btn-primary tombol py-3 px-5">Lanjut Baca</a>
           </div>
           <div class="col-lg-5"><img src="assets/img/galleryicon1.png" alt="workingspace" class="img-fluid" /></div>
@@ -132,7 +134,7 @@
       <section class="testimonial-section2">
         <div class="row text-center">
           <div class="col-12">
-            <div class="h2">Kata Mereka</div>
+            <div class="h2">Testimoni</div>
           </div>
         </div>
         <div id="testim" class="testim">
@@ -195,11 +197,11 @@
       <div class="harga text-center bg-light" id="harga">
         <div class="row">
           <div class="col-lg detailharga">
-            <img src="assets/img/man.png" alt="" class="img-circle mt-4 mb-4" />
-            <h5>Paket Single</h5>
+            <!-- <img src="assets/img/man.png" alt="" class="img-circle mt-4 mb-4" /> -->
+            <h5 class=" mt-5">Paket Single</h5>
             <p>Buat kamu yang suka ngetrip sendirian dan mau nambah temen baru.</p>
+            <b>Persyaratan</b>
             <ul>
-              <li>Syarat:</li>
               <li>Umur diatas 17 tahun,</li>
               <li>Membawa perlengkapan yang dianjurkan selama traveling,</li>
               <li>Membaca dan menyetujui setiap persyaratan yang diatur,</li>
@@ -208,11 +210,11 @@
             <button class="btn btn-primary mb-4 tombol py-2 px-4">Daftar</button>
           </div>
           <div class="col-lg detailharga">
-            <img src="assets/img/man.png" alt="" class="img-circle mt-4 mb-4" />
-            <h5>Paket Teman</h5>
+            <!-- <img src="assets/img/man.png" alt="" class="img-circle mt-4 mb-4" /> -->
+            <h5 class=" mt-5">Paket Teman</h5>
             <p>Buat kamu dan temen - temen kamu yang mau ngetrip rame - rame.</p>
+            <b>Persyaratan</b>
             <ul>
-              <li>Syarat:</li>
               <li>Umur diatas 17 tahun,</li>
               <li>Membawa perlengkapan yang dianjurkan selama traveling,</li>
               <li>Membaca dan menyetujui setiap persyaratan yang diatur,</li>
@@ -221,22 +223,22 @@
             <button class="btn btn-primary mb-4 tombol py-2 px-4">Daftar</button>
           </div>
           <div class="col-lg detailharga">
-            <img src="assets/img/man.png" alt="" class="img-circle mt-4 mb-4" />
-            <h5>Paket Gerombolan</h5>
-            <p>Buat kamu dan tim kamu (tim kerja atau perusahaan) yang mau ngadain gethering atau family day.</p>
+            <!-- <img src="assets/img/man.png" alt="" class="img-circle mt-4 mb-4" /> -->
+            <h5 class=" mt-5">Paket Rame - Rame</h5>
+            <p>Buat kamu dan tim kerja atau perusahaan yang mau ngadain gethering.</p>
+            <b>Persyaratan</b>
             <ul>
-              <li>Syarat:</li>
               <li>Umur diatas 17 tahun,</li>
               <li>Membawa perlengkapan yang dianjurkan selama traveling,</li>
               <li>Membaca dan menyetujui setiap persyaratan yang diatur,</li>
-              <li>Jumlah peserta yang didaftarkan diatas 20 orang.</li>
+              <li>Jumlah peserta yang didaftarkan > 20 orang.</li>
             </ul>
             <button class="btn btn-primary mb-4 tombol py-2 px-4">Daftar</button>
           </div>
         </div>
       </div>
       <div class="cekkodebooking col-lg-4 mr-auto mb-auto ml-auto" id="cekkodebooking">
-        <div class="row justify-content-md-center align-items-center">
+        <div class="row justify-content-md-center align-items-center pt-5">
           <label for="">CEK KODE BOOKING</label>
           <div class="input-group mb-3">
             <div class="input-group-prepend">
@@ -294,7 +296,7 @@
           <ul>
             <li><h5>Informasi</h5></li>
             <li><i class="fas fa-thin fa-angle-right"></i><a href="#tentangkami"> Tentang Kami</a></li>
-            <li><i class="fas fa-thin fa-angle-right"></i><a href="#gallery"> Gallery</a></li>
+            <li><i class="fas fa-thin fa-angle-right"></i><a href="#gallery"> Galeri</a></li>
             <li><i class="fas fa-thin fa-angle-right"></i><a href="#"> Karir</a></li>
             <li><i class="fas fa-thin fa-angle-right"></i><a href="#"> F.A.Q</a></li>
           </ul>
@@ -302,15 +304,15 @@
         <div class="col-lg">
           <ul>
             <li><h5>Kontak Kami</h5></li>
-            <li><i class="fas fa-map-marker"></i> Kantor: Jl. Jalan jalan wadoh</li>
-            <li><i class="fas fa-phone"></i> Telepon: (021) 46828072</li>
-            <li><i class="fas fa-envelope"></i> Email: au@ok.com</li>
-            <li><i class="fas fa-smile"></i> Layanan Pelanggan: (021) 46828073</li>
+            <li><i class="fas fa-map-marker"></i> Jl. Mayjen Sutoyo No. 123</li>
+            <li><i class="fas fa-phone"></i> (021) 46828072</li>
+            <li><i class="fas fa-envelope"></i> masdedysopentrip@gmail.com</li>
+            <li><i class="fas fa-smile"></i> (021) 46828073</li>
           </ul>
         </div>
       </div>
       <div class="row">
-        <div class="col-lg d-flex justify-content-center mt-4">
+        <div class="col-lg d-flex justify-content-center mt-5">
           <a href="#"
             ><button class="btn btn-primary buttonsosmed mr-3"><i class="fab fa-instagram"></i></button
           ></a>
@@ -329,19 +331,11 @@
       <!-- Copyright -->
       <div class="row copyright">
         <div class="col-md-12 d-flex justify-content-center">
-          <p class="my-3">2022 All Rights Reserved by Dedy</p>
+          <!-- <p class="text-center py-3 text-dark font-weight-bold">Created with <i class="bi bi-cup-hot-fill" style="color: black;"></i> and <i class="bi bi-suit-heart-fill" style="color: red;"></i> </i><a href="https://masdedys.github.io/"> by Dedy Setiawan</a>. | &copy; 2023</p> -->
+          <p class="my-3">&copy; 2026&nbsp;<a href="https://masdedys.github.io/">masdedys.github.io</a> , All Rights Reserved</p>
         </div>
       </div>
       <!-- Akhir Copyright -->
-    </div>
-    <div class="copyright bg-white">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <p class="text-center py-3 text-dark font-weight-bold">Created with <i class="bi bi-cup-hot-fill" style="color: black;"></i> and <i class="bi bi-suit-heart-fill" style="color: red;"></i> </i><a href="https://masdedys.github.io/"> by Dedy Setiawan</a>. | &copy; 2023</p>
-          </div>
-        </div>
-      </div>
     </div>
     <!-- Optional JavaScript; choose one of the two! -->
 
