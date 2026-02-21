@@ -18,7 +18,23 @@
     font-family: 'Viga', sans-serif;
     font-size: 32px;
 }
-
+.navbar-brand,
+.nav-link {
+    color: white !important;      
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+}
+.nav-link:hover{
+        font-weight: 500;
+}
+.nav-link:hover::after {
+    content: '';
+    display: block;
+    border-bottom: 3px solid white;
+    width: 50%;
+    margin: 0;
+    padding-bottom: 5px;
+    margin-bottom: -8px;
+    }
 /* Jumbotron */
 .jumbotron {
     background-image: url(../img/d.jpg);
@@ -279,6 +295,9 @@
     /* .nav-link:hover {
         border-bottom: 3px solid #0b63dc;
     } */
+    .nav-link:hover{
+        font-weight: 500;
+    }
     .nav-link:hover::after {
         content: '';
         display: block;
@@ -288,11 +307,7 @@
         padding-bottom: 5px;
         margin-bottom: -8px;
     }
-    .navbar .nav-link:hover{
-        color: #ea830e;
-        font-weight: 500;
-    }
-
+    
     .jumbotron {
         margin-top: -75px;
         height: 640px;
